@@ -39,7 +39,7 @@ app.post('/get-email-count', async (req, res) => {
   }
 });
 
-// const PORT = 3001;
-// app.listen(PORT, () => {
-//   console.log(`IMAP Server running on http://localhost:${PORT}`);
-// });
+const PORT = 3001;
+app.listen(PORT, () => {
+  console.log(`IMAP Server running on http://localhost:${PORT}`);
+});
